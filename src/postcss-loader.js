@@ -197,6 +197,8 @@ export default {
         code: result.css,
         map: outputMap
       }
+    } else if (!shouldInject) {
+      output += result.css;
     } else {
       const module = supportModules ?
         JSON.stringify(modulesExported[this.id]) :

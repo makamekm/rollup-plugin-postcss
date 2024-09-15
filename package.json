@@ -1,6 +1,6 @@
 {
-  "name": "rollup-plugin-postcss",
-  "version": "3.0.0",
+  "name": "rollup-plugin-postcss-extracted",
+  "version": "3.0.1",
   "description": "Seamless integration between Rollup and PostCSS",
   "main": "dist/index.js",
   "files": [
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/egoist/rollup-plugin-postcss.git"
+    "url": "git+https://github.com/makamekm/rollup-plugin-postcss.git"
   },
   "keywords": [
     "postcss",
@@ -25,13 +25,13 @@
   "author": "EGOIST <0x142857@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/egoist/rollup-plugin-postcss/issues"
+    "url": "https://github.com/makamekm/rollup-plugin-postcss/issues"
   },
   "engines": {
     "node": ">=10"
   },
   "types": "./types/index.d.ts",
-  "homepage": "https://github.com/egoist/rollup-plugin-postcss#readme",
+  "homepage": "https://github.com/makamekm/rollup-plugin-postcss#readme",
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7",
